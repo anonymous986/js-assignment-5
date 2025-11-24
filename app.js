@@ -22,54 +22,31 @@ function opp() {
 } 
 
 // answer 3a
-var num;
-
-// asnwer 3b
+let num;
 function showValue() {
-    let num;
-    document.write("the walue of the variable is: ", num)
-}
-
-// answer 3c
-num = 8
-
-// answer 3d
-function initialValue() {
-    let num = 8;
-    document.write("the initial value of the variable is : ", num)
-}
-
-// asnwer 3e
-num++
-
-// asnwer 3f
-function increment() { 
-    document.write("value of variable after increment = ", num)
-}
-
-// answer 3g
-num = num + 7
-
-// answer 3h
-function add7() {
-    document.write("variable + 7 = ", num)
-}
-
-// answer 3i
-num--
-
-// answer 3j
-function decrement() {
-    document.write("value of variable after decrement is = ", num)
-}
-
-// answer 3k
-var remain;
-remain = num % 3
-
-// answer 3l
-function remainder() {
-    document.write("the remainder is = ", remain)
+    // answer 3b
+    document.write("The value of variable is : ", num, "<br>")
+    // answer 3c
+    num = 5;
+    // answer 3d
+    document.write("the initial value of variable is : ", num, "<br>")
+    // answer 3e
+    num++
+    // answer 3f
+    document.write("the incremented value of variable is : ", num, "<br>")
+    // answer 3g
+    num = num + 7;
+    // answer 3h
+    document.write("Value after addition : ", num, "<br>")
+    // answer 3i
+    num--
+    // answer 3j
+    document.write("Value after decrement is : ", num, "<br>")
+    // answer 3k
+    var remain;
+    remain = num % 3;
+    // answer 3l
+    document.write("the remainder is : ", remain)
 }
 
 // amswer 4
